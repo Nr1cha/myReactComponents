@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*change for how many columns you want*/
+    grid-template-rows: repeat(2, 150px); /*change for how many rows you want*/
+    grid-gap: 15px;
+    background-color: grey;
+    margin: auto;
+    width: 50%;
+    /*   align-content: center; */
+    /* height: 100vh; */ /*how much of the page you want to take up vertically*/
+}
+
+.box {
+    background-color: rgb(170, 170, 170);
+    text-align: center;
+    border: rgb(70, 70, 70) dashed;
+}
