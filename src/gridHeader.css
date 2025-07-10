@@ -1,0 +1,63 @@
+body {
+    margin: auto;
+    display: grid;
+    background-color: lightgray;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav";
+}
+
+header {
+    grid-area: header;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 4px;
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+}
+
+nav {
+    grid-area: nav;
+    display: inherit;
+    margin: auto;
+    width: inherit;
+}
+
+#header-logo {
+    margin: inherit;
+    padding: 5px;
+    height: 40px;
+}
+ul  {
+    display: inline-grid;
+    margin: unset;
+    width: 100%;
+    grid-template-columns: 1fr repeat(4, auto) 1fr;
+    gap: 10px;
+    list-style-type: none;
+    padding: unset;
+}
+.navListItem {
+    align-self: center;
+}
+li  {
+    display: flex;
+    align-items: center;
+}
+.signIn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(77, 76, 76);
+}

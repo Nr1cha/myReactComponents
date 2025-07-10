@@ -1,3 +1,5 @@
+/* standard grid */
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /*change for how many columns you want*/
