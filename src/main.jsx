@@ -9,7 +9,7 @@ import GridHeaderNav from './components/gridheader.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    <CssGrid />
     <GridHeaderNav />
+    <CssGrid />
   </StrictMode>,
 )
